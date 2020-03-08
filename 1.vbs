@@ -16,7 +16,7 @@ Select Case str
 	Case "html"
 		MsgBox "create html error",16
 	Case Else 
-		CreateObject("SAPI.SpVoice").Speak"你想干什么"
+		CreateObject("SAPI.SpVoice").Speak"你在干什么，是栩亲号吗"
 End Select
 		
 Sub help()
