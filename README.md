@@ -11,7 +11,6 @@
 |  ----  | ----  |
 | 懒人诗词检索.exe | 主文件，不可删除 |
 | 1.vbs | 帮助文件，最好不要删除 |
-
 | lr.html | 运行软件后文本结果，可打开，可删除 |
 
 ## 可能问题
@@ -22,10 +21,10 @@
 
 	打开“text.txt”，查看窗口右下角，若显示“ANSI”或“GB2312-80”，则另存为——文件编码设为“UTF-8”，重新打开exe  
 	
-	![01.PNG](https://i.loli.net/2020/03/08/xBhCwNAkSQFtzEn.png =100x)
-	![02.PNG](https://i.loli.net/2020/03/08/9zSLw4ydmHBW618.png =100x)
-	![03.PNG](https://i.loli.net/2020/03/08/qMjZiCeV1IRuh7U.png =80x)
-	![04.PNG](https://i.loli.net/2020/03/08/wahYQI61XlC379S.png =80x)
+	![01.PNG](https://i.loli.net/2020/03/08/xBhCwNAkSQFtzEn.png)
+	![02.PNG](https://i.loli.net/2020/03/08/9zSLw4ydmHBW618.png)
+	![03.PNG](https://i.loli.net/2020/03/08/qMjZiCeV1IRuh7U.png)
+	![04.PNG](https://i.loli.net/2020/03/08/wahYQI61XlC379S.png)
 + 有其他问题，请上报至[issue](https://github.com/wsm25/lr/issues)
 
 ## 关于
