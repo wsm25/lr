@@ -3,6 +3,14 @@
 
 ## 使用方法
 在文件夹中创建[^“text.txt”]，把目标文本复制~~或打入~~到文件中，运行“懒人诗词检索.exe”，稍等片刻  
+[^“text.txt”] : 文件名不可改变！  
+
+## 文件说明
+| 文件 | 作用 |
+| 懒人诗词检索.exe | 主文件，不可删除 |
+| 1.vbs | 帮助文件，最好不要删除 |
+| README.md | 你正在看到的这个文本，可删除 |
+| lr.html | 运行软件后文本结果，可打开，可删除 |
 
 ## 可能问题
 + 杀毒软件报毒
@@ -13,7 +21,8 @@
 	![01.PNG](https://i.loli.net/2020/03/08/xBhCwNAkSQFtzEn.png)
 	![02.PNG](https://i.loli.net/2020/03/08/9zSLw4ydmHBW618.png)
 	![03.PNG](https://i.loli.net/2020/03/08/qMjZiCeV1IRuh7U.png)
-	![04.PNG](https://i.loli.net/2020/03/08/wahYQI61XlC379S.png)  
+	![04.PNG](https://i.loli.net/2020/03/08/wahYQI61XlC379S.png)
++ 有其他问题，请上报至[issue](https://github.com/wsm25/lr/issues)
 
 ## 关于
 wsm，一个自学成渣的初中生，爱好一切理科和一切文科。  
