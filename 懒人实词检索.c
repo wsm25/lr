@@ -41,9 +41,16 @@ char search(char *ch1,char *ch2,char *ch3){
 }
 
 int main(int agrc, char **agrv){
-	if (agrc==2) {if(agrv[1]=="/?"||agrv[1]=="-h") {return system("start 1.vbs h");}}
+	if (agrc==2) {if(agrv[1]=="/?"||agrv[1]=="-h") {
+		return system("start 1.vbs h");}}
 	FILE *textfp=fopen("text.txt","r");
-	if (textfp==NULL) {return system("start 1.vbs h");}
+	if (textfp==NULL) {
+		textfp=fopen("text.txt","w");
+		fputs("在这里复制或输入文本，然后保存",textfp);
+		fclose(textfp);
+		system("notepad text.txt");
+		textfp=fopen("text.txt","r");
+		}
 	fseek(textfp, 0, SEEK_END);
 	size_t size=ftell(textfp);
     if (size>BUFLEN) {fclose(textfp);return system("start 1.vbs big");}
