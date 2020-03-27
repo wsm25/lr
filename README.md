@@ -4,7 +4,7 @@
 
 **说明：本软件只用作检索实词，字词解释自行查字典**。
 
-👉[下载1](http://ys-f.ys168.com/611626533/U6wFgWk52467F36K3M5U/lr.exe)👈		 [下载2](https://github.com/wsm25/lr/releases/download/v1.1.0/lr.exe)
+👉[下载1](https://attachments-cdn.shimo.im/wbgEwdm91b0dMWJt/lr.exe)👈		 [下载2](https://github.com/wsm25/lr/releases/download/v1.1.0/lr.exe)
 
 ## 使用方法
 在有`懒人实词检索.exe`的文件夹中创建`text.txt`，把目标文本复制 ~~或打入~~ 到文件中，运行`懒人诗词检索.exe`，稍等片刻  
